@@ -1,0 +1,9 @@
+{
+  "name": "Cloudflare Workers Development",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {}
+  },
+  "forwardPorts": [8787],
+  "postCreateCommand": "npm install"
+}
